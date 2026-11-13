@@ -1,7 +1,7 @@
 ---
 name: webpipe
 description: |
-  为 AI 智能体安装、认证并接入 WebPipe（https://webpipe.ai），赋予它 5 个 MCP 工具：webpipe_verify_auth（确认 API Key 可用）、webpipe_scrape（把网页转成 Markdown/HTML/JSON）、webpipe_map（发现站点上的全部 URL）、webpipe_crawl（爬取整站）、webpipe_browser（可持续交互的无头浏览器，支持点击、填表、截图）。当用户希望在 Claude Code、Codex、Cursor、Claude Desktop、Windsurf、Cline 或其他 MCP 客户端内部使用 WebPipe，或需要通过 WebPipe 获取当前网页数据时使用本技能。让安装过程自主完成：优先复用已有的 WEBPIPE_API_KEY，否则引导用户去 WebPipe 控制台获取；用逐字可复制的命令安装 MCP 服务器，并在宣布安装完成前用 webpipe_verify_auth 加一次真实抓取做验证。
+  为 AI 智能体安装、认证并接入 WebPipe（https://webpipe.ai）赋予它5个 MCP 工具：webpipe_verify_auth（确认 API Key 可用）、webpipe_scrape（把网页转成 Markdown/HTML/JSON）、webpipe_map（发现站点上的全部 URL）、webpipe_crawl（爬取整站）、webpipe_browser（可持续交互的无头浏览器，支持点击、填表、截图）。当用户希望在 Claude Code、Codex、Cursor、Claude Desktop、Windsurf、Cline 或其他 MCP 客户端内部使用 WebPipe，或需要通过 WebPipe 获取当前网页数据时使用本技能。让安装过程自主完成：优先复用已有的 WEBPIPE_API_KEY，否则引导用户去 WebPipe 控制台获取；用逐字可复制的命令安装 MCP 服务器，并在宣布安装完成前用 webpipe_verify_auth 加一次真实抓取做验证。
 ---
 
 # WebPipe
